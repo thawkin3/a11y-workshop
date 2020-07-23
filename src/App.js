@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import { Nav } from './Nav'
 import { HomePage } from './HomePage'
 import { BadExamplePage } from './BadExamplePage'
+import { InProgressExamplePage } from './InProgressExamplePage'
 import { GoodExamplePage } from './GoodExamplePage'
 import './App.css'
 
@@ -15,6 +16,9 @@ function App() {
           <Switch>
             <Route path="/bad-example">
               <BadExamplePage />
+            </Route>
+            <Route path="/in-progress-example">
+              <InProgressExamplePage />
             </Route>
             <Route path="/good-example">
               <GoodExamplePage />

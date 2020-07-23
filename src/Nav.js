@@ -12,6 +12,9 @@ export const Nav = () => (
         <Link to="/bad-example">Bad Example</Link>
       </li>
       <li>
+        <Link to="/in-progress-example">In Progress Example</Link>
+      </li>
+      <li>
         <Link to="/good-example">Good Example</Link>
       </li>
     </ul>

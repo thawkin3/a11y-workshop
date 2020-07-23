@@ -9,7 +9,8 @@ export const HomePage = () => (
       identify them, and how to fix them.
     </p>
     <p>
-      Use the nav bar above to navigate between the good and bad example pages.
+      Use the nav bar above to navigate between the good, in progress, and bad
+      example pages.
     </p>
   </div>
 )

@@ -1,0 +1,107 @@
+.inProgressExample .title {
+  text-align: center;
+}
+
+.inProgressExample h2 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.inProgressExample .title h4 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.inProgressExample a,
+.inProgressExample a:focus,
+.inProgressExample a:hover {
+  text-decoration: none;
+  outline: none;
+}
+
+.inProgressExample .listOfItems .addItemButton {
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1rem;
+  border-radius: 50%;
+}
+
+.inProgressExample .listOfItems img {
+  width: 2rem;
+}
+
+.inProgressExample .listContents {
+  margin-left: 1rem;
+}
+
+.inProgressExample .listContents li {
+  margin: 1rem 0;
+}
+
+.inProgressExample .styledButton {
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  font-family: inherit;
+  font-weight: normal;
+  border: none;
+  border-radius: 0.5rem;
+  background: deeppink;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  max-width: 18rem;
+  word-break: break-word;
+  word-wrap: break-word;
+  transition: all 0.5s;
+  margin-right: 1rem;
+}
+
+.inProgressExample .meetTheTeam img {
+  border-radius: 50%;
+  height: 10rem;
+  border: #000 solid 0.125rem;
+  margin: 1rem;
+}
+
+.inProgressExample .tableData .tableBody {
+  border: 0.0625rem solid #000;
+  width: auto;
+}
+
+.inProgressExample .tableData .tableColumn {
+  display: inline-block;
+  width: 50%;
+}
+
+.inProgressExample .tableData .tableHeader {
+  font-weight: bold;
+}
+
+.inProgressExample .tableData .tableDataItem {
+  text-align: center;
+  border: 0.0625rem solid #000;
+  padding: 0.5rem;
+}
+
+.inProgressExample .forms form {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.inProgressExample .forms .formGroup {
+  margin: 1rem 0;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.inProgressExample .forms .label {
+  margin: 0 1rem 0 0;
+}
+
+.inProgressExample .forms button {
+  margin: 1rem 0;
+}
