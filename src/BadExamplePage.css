@@ -1,0 +1,107 @@
+.badExample .title {
+  text-align: center;
+}
+
+.badExample h2 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.badExample .title h4 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.badExample a,
+.badExample a:focus,
+.badExample a:hover {
+  text-decoration: none;
+  outline: none;
+}
+
+.badExample .listOfItems .addItemButton {
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1rem;
+  border-radius: 50%;
+}
+
+.badExample .listOfItems img {
+  width: 2rem;
+}
+
+.badExample .listContents {
+  margin-left: 1rem;
+}
+
+.badExample .listContents li {
+  margin: 1rem 0;
+}
+
+.badExample .styledButton {
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  font-family: inherit;
+  font-weight: normal;
+  border: none;
+  border-radius: 0.5rem;
+  background: deeppink;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  max-width: 18rem;
+  word-break: break-word;
+  word-wrap: break-word;
+  transition: all 0.5s;
+  margin-right: 1rem;
+}
+
+.badExample .meetTheTeam img {
+  border-radius: 50%;
+  height: 10rem;
+  border: #000 solid 0.125rem;
+  margin: 1rem;
+}
+
+.badExample .tableData .tableBody {
+  border: 0.0625rem solid #000;
+  width: auto;
+}
+
+.badExample .tableData .tableColumn {
+  display: inline-block;
+  width: 50%;
+}
+
+.badExample .tableData .tableHeader {
+  font-weight: bold;
+}
+
+.badExample .tableData .tableDataItem {
+  text-align: center;
+  border: 0.0625rem solid #000;
+  padding: 0.5rem;
+}
+
+.badExample .forms form {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.badExample .forms .formGroup {
+  margin: 1rem 0;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.badExample .forms .label {
+  margin: 0 1rem 0 0;
+}
+
+.badExample .forms button {
+  margin: 1rem 0;
+}
