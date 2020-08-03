@@ -81,19 +81,19 @@ export const GoodExamplePage = () => (
         className="styledButton"
         onClick={() => alert('You have clicked me! Good choice.')}
       >
-        Click me!
+        Show Alert 1
       </button>
       <button
         className="styledButton"
         onClick={() => alert('You have clicked me! Good choice too.')}
       >
-        No, click me!
+        Show Alert 2
       </button>
       <button
         className="styledButton"
         onClick={() => alert('You have clicked me! Excellent choice.')}
       >
-        Or, click me!
+        Show Alert 3
       </button>
     </div>
 

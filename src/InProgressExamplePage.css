@@ -59,6 +59,10 @@
   margin-right: 1rem;
 }
 
+.inProgressExample a.styledButton {
+  text-decoration: none;
+}
+
 .inProgressExample .meetTheTeam img {
   border-radius: 50%;
   height: 10rem;

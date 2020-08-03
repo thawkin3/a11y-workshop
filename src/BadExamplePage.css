@@ -59,6 +59,10 @@
   margin-right: 1rem;
 }
 
+.badExample a.styledButton {
+  text-decoration: none;
+}
+
 .badExample .meetTheTeam img {
   border-radius: 50%;
   height: 10rem;

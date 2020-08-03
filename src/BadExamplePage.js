@@ -76,20 +76,20 @@ export const BadExamplePage = () => (
         className="styledButton"
         onClick={() => alert('You have clicked me! Good choice.')}
       >
-        Click me!
+        Show Alert 1
       </button>
       <span
         className="styledButton"
         onClick={() => alert('You have clicked me! Good choice too.')}
       >
-        No, click me!
+        Show Alert 2
       </span>
       <a
         className="styledButton"
         href="#"
         onClick={() => alert('You have clicked me! Excellent choice.')}
       >
-        Or, click me!
+        Show Alert 3
       </a>
     </div>
 
