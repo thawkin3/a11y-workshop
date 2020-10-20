@@ -2,6 +2,8 @@ import React from 'react'
 import { render } from '@testing-library/react'
 import App from './App'
 
-test('renders learn react link', () => {
-  expect(() => render(<App />)).not.toThrow()
+describe('App', () => {
+  it('renders the app without throwing an error', () => {
+    expect(() => render(<App />)).not.toThrow()
+  })
 })
