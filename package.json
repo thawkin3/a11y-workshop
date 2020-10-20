@@ -2,7 +2,7 @@
   "name": "a11y-workshop",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://tylerhawkins.info/a11y-workshop/",
+  "homepage": "http://tylerhawkins.info/a11y-workshop/build/",
   "scripts": {
     "build": "react-scripts build",
     "eject": "react-scripts eject",
