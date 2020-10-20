@@ -10,7 +10,7 @@ import './App.css'
 function App() {
   return (
     <div className="app">
-      <BrowserRouter>
+      <BrowserRouter basename="/a11y-workshop/build">
         <Nav />
         <div className="appPages">
           <Switch>
