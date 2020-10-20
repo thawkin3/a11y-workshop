@@ -7,15 +7,15 @@ import avatar3 from './img/avatar3.png'
 
 export const GoodExamplePage = () => (
   <main className="goodExample">
-    <div className="title">
+    <header className="title">
       <h1>Good Example Page</h1>
       <p>
         This page is nearly identical to the Bad Example Page but is nice and
         accessible.
       </p>
-    </div>
+    </header>
 
-    <div className="additionalLinks section">
+    <section className="additionalLinks section">
       <h2>Links</h2>
       <p>
         You can find some good resources on accessibility at the{' '}
@@ -29,9 +29,9 @@ export const GoodExamplePage = () => (
         </a>
         .
       </p>
-    </div>
+    </section>
 
-    <div className="listOfItems section">
+    <section className="listOfItems section">
       <h2>Lists and Buttons</h2>
       <p>
         This is my shopping list:
@@ -72,9 +72,9 @@ export const GoodExamplePage = () => (
           </button>
         </li>
       </ul>
-    </div>
+    </section>
 
-    <div className="buttons section">
+    <section className="buttons section">
       <h2>Buttons</h2>
       <p>Some styled buttons to click!</p>
       <button
@@ -95,9 +95,9 @@ export const GoodExamplePage = () => (
       >
         Show Alert 3
       </button>
-    </div>
+    </section>
 
-    <div className="meetTheTeam section">
+    <section className="meetTheTeam section">
       <h2>Images</h2>
       <p>Meet the team!</p>
       <div className="avatarsContainer">
@@ -106,9 +106,9 @@ export const GoodExamplePage = () => (
         <img src={avatar1} alt="Sarah" />
         <img src={avatar2} alt="Chad" />
       </div>
-    </div>
+    </section>
 
-    <div className="tableData section">
+    <section className="tableData section">
       <h2>Tables</h2>
       <p>Let's look at some data.</p>
       <p>
@@ -144,9 +144,9 @@ export const GoodExamplePage = () => (
           </tr>
         </tbody>
       </table>
-    </div>
+    </section>
 
-    <div className="forms section">
+    <section className="forms section">
       <h2>Forms</h2>
       <p>Please provide your contact info.</p>
       <form
@@ -189,6 +189,6 @@ export const GoodExamplePage = () => (
         </div>
         <button type="submit">Submit</button>
       </form>
-    </div>
+    </section>
   </main>
 )
